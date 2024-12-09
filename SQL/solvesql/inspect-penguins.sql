@@ -1,3 +1,3 @@
-SELECT game_id, name, year
-FROM games
-WHERE name LIKE '%Christmas%' OR name LIKE '%Santa%'
+SELECT DISTINCT species, island
+FROM penguins
+ORDER BY island, species
